@@ -14,15 +14,33 @@
 
     <h1>Dessiner des formes</h1>
     <h2>Rectangle</h2>
-
+    <svg id="rectangle" width="500">
+      <rect x="0" y="0" width="400" height="100" fill="indianred"></rect>
+    </svg>
     <h2>Donut</h2>
-
+    <svg>
+      <circle cx="50" cy="50" r="30" fill="none" stroke="black"></circle>
+      <circle cx="50" cy="50" r="60" fill="none" stroke="black"></circle>
+    </svg>
 
     <h2>Ligne</h2>
-
+    <svg>
+      <line x1="20" y1="50" x2="80" y2="55" stroke="black"></line>
+    </svg>
 
     <h2>Path</h2>
-
+    <svg width="800">
+      <g fill="none" stroke="pink" stroke-width="1">
+      <path d="M 0 100 L 50 0" ></path>
+      <path d="M 50 0 L 100 100"></path>
+      <path d="M 25 50 L 75 50 H 75"></path>
+      <path d="M 75 0 L 125 -50 V 100"></path>
+      <path d="M 125 100 L 200 100 H 200"></path>
+      <path d="M 225 0 V 100"></path>
+      <path d="M 250 100 V 0 L 300 100 V 0"></path>
+      <path d="M 325 0 V 100 H 390 M 325 50 H 350 M 325 0 H 390"></path>
+      </g>
+    </svg>
 
     <h1>Animer des formes</h1>
 
